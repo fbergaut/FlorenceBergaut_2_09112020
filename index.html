@@ -27,5 +27,51 @@
         </nav>
       </div>
     </header>
+
+    <!--Section 1 Form + Filters-->
+    <section>
+      <div>
+        <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+        <h3>En plein centre ville ou en pleine nature</h3>
+        <div>
+          <i class="fas fa-map-marker-alt"></i>
+          <form action="traitement.php" method="POST">
+            <div>
+              <input
+                type="text"
+                name="ville-et-pays"
+                placeholder="Marseille, Fr"
+                autofocus
+              />
+              <input type="button" value="Rechercher" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--Filters-->
+      <div>
+        <h3>Filtres</h3>
+        <ul>
+          <li>
+            <button type="button">
+              <i class="fas fa-money-bill-wave"></i>
+            </button>
+          </li>
+          <li>
+            <button type="button"><i class="fas fa-child"></i></button>
+          </li>
+          <li>
+            <button type="button"><i class="fas fa-heart"></i></button>
+          </li>
+          <li>
+            <button type="button"><i class="fas fa-dog"></i></button>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <i class="fas fa-info-circle"></i>
+        <h4>Plus de 500 logements sont disponibles dans cette ville</h4>
+      </div>
+    </section>
   </body>
 </html>
