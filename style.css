@@ -227,15 +227,57 @@ body {
   padding: 0;
 }
 
+img {
+  width: 5%;
+}
+
+/* Creation fo grid*/
+
 .container {
   width: 1440px;
-  /*margin: auto;*/
+  margin: 50px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(7, 1fr);
+  grid-template-rows: 30px repeat(5, 1fr);
   grid-gap: 40px;
 }
 
 .header {
+  grid-column: 1 / span 8;
+}
+
+header img {
+  width: 10%;
+}
+
+.nav {
+  grid-column: 9 / span 4;
+}
+
+.section1 {
   grid-column: 1 / -1;
+  grid-row: 2 / span 12;
+}
+
+.section2 {
+  grid-column: 1 / -1;
+  grid-row: 3 / span 12;
+}
+
+.section3 {
+  grid-column: 1 / -1;
+  grid-row: 4 / span 12;
+}
+
+.section4 {
+  grid-column: 1 / -1;
+  grid-row: 5 / span 12;
+}
+
+.footer {
+  grid-column: 1 / -1;
+  grid-row: 6 / span 12;
+}
+
+.col6 {
 }
