@@ -225,6 +225,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "ralewayregular", Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -244,10 +245,6 @@ img {
 
 .header {
   grid-column: 1 / span 8;
-}
-
-header img {
-  width: 10%;
 }
 
 .nav {
@@ -280,4 +277,41 @@ header img {
 }
 
 .col6 {
+}
+
+/* header */
+
+header img {
+  width: 10%;
+}
+
+/* nav */
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  font-size: 1em;
+  color: black;
+}
+
+a.signup {
+  font-family: "ralewaybold", Arial, Helvetica, sans-serif;
+  color: #0065fc;
+}
+
+/* links nav + footer */
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
 }
