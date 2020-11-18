@@ -58,17 +58,21 @@
         <div>
           <h1>Trouver votre hébergement pour des vacances de rêve</h1>
           <h3>En plein centre ville ou en pleine nature</h3>
-          <div>
-            <i class="fas fa-map-marker-alt"></i>
-            <form action="traitement.php" method="POST">
-              <div>
+          <div class="section1__form">
+            <div class="section1__map-marker">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <form class="section1__formBLoc" action="#.php" method="POST">
+              <div class="section1__formGroup">
                 <input
                   type="text"
                   name="ville-et-pays"
                   placeholder="Marseille, Fr"
                   autofocus
                 />
-                <input type="button" value="Rechercher" />
+
+                <!-- <div class="section1__formGroup"> -->
+                <button class="section1__formGroup">Rechercher</button>
               </div>
             </form>
           </div>

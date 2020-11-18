@@ -218,14 +218,17 @@
   font-style: normal;
 }
 
-* {
+*,
+::before,
+::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: "ralewayregular", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
 }
 
 img {
@@ -239,8 +242,8 @@ img {
   margin: 50px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 30px repeat(5, 1fr);
-  grid-gap: 40px;
+  grid-template-rows: 30px 172px repeat(4, 1fr);
+  grid-column-gap: 40px;
 }
 
 .header {
@@ -279,6 +282,24 @@ img {
 .col6 {
 }
 
+/**********************************************/
+
+/* links nav + footer */
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+/**********************************************/
+
 /* header */
 
 header img {
@@ -302,28 +323,79 @@ nav ul li a {
   position: relative;
 }
 
-a.signup {
+nav a.signup {
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
   color: #0065fc;
 }
 
-a:hover {
+nav a:hover {
   color: #0065fc;
   border-top: 0.2rem solid #0065fc;
-  padding-top: 4rem;
+  padding-top: 2rem;
   transition: all 0.2s ease-out;
 }
 
-/* links nav + footer */
+/* section1 */
 
-ul {
-  padding: 0;
+.section1 {
+  align-items: flex-end;
 }
 
-li {
-  list-style-type: none;
+.section1 h1 {
+  font-family: "ralewaybold", Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-weight: normal;
 }
 
-li a {
-  text-decoration: none;
+.section1 h3 {
+  font-family: "ralewayregular", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
 }
+
+.section1__form {
+  display: flex;
+  flex-direction: row;
+  width: 420px;
+  height: 50px;
+  padding-top: 20px;
+}
+
+.section1__map-marker {
+  display: flex;
+  width: 52px;
+  height: 50px;
+  background-color: #f2f2f2;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 0 0 10px;
+}
+
+.section1__formBloc {
+}
+
+.section1__formGroup {
+  display: flex;
+  flex-direction: row;
+}
+
+.section1__formGroup input {
+  padding: 15px 0px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  border-top: 2px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+input::placeholder {
+  color: black;
+  margin-left: 10px;
+}
+
+/*.section1__button {
+  width: 134px;
+  height: 50px;
+  margin: 0;
+} */
