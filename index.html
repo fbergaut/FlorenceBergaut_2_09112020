@@ -55,27 +55,27 @@
 
       <!--Section 1 Form-->
       <section class="section1">
-        <div>
-          <h1>Trouver votre hébergement pour des vacances de rêve</h1>
-          <h3>En plein centre ville ou en pleine nature</h3>
-          <div class="section1__form">
-            <div class="section1__map-marker">
-              <i class="fas fa-map-marker-alt"></i>
-            </div>
-            <form class="section1__formBLoc" action="#.php" method="POST">
-              <div class="section1__formGroup">
-                <input
-                  type="text"
-                  name="ville-et-pays"
-                  placeholder="Marseille, Fr"
-                  autofocus
-                />
+        <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+        <h3>En plein centre ville ou en pleine nature</h3>
 
-                <!-- <div class="section1__formGroup"> -->
-                <button class="section1__formGroup">Rechercher</button>
-              </div>
-            </form>
-          </div>
+        <div class="section1__form">
+          <span class="section1__map-marker">
+            <i class="fas fa-map-marker-alt"></i>
+          </span>
+
+          <form class="section1__formBLoc" action="#.php" method="POST">
+            <div class="section1__formResearch">
+              <input
+                type="text"
+                name="ville-et-pays"
+                placeholder="Marseille, France"
+                maxlength="50"
+                size="30"
+              />
+            </div>
+
+            <button class="section1__formSubmit">Rechercher</button>
+          </form>
         </div>
       </section>
 
@@ -86,17 +86,23 @@
           <ul>
             <li>
               <button type="button">
-                <i class="fas fa-money-bill-wave"></i>
+                <i class="fas fa-money-bill-wave">Economique</i>
               </button>
             </li>
             <li>
-              <button type="button"><i class="fas fa-child"></i></button>
+              <button type="button">
+                <i class="fas fa-child"></i>Familial
+              </button>
             </li>
             <li>
-              <button type="button"><i class="fas fa-heart"></i></button>
+              <button type="button">
+                <i class="fas fa-heart"></i>Romantique
+              </button>
             </li>
             <li>
-              <button type="button"><i class="fas fa-dog"></i></button>
+              <button type="button">
+                <i class="fas fa-dog"></i>Animaux autorisés
+              </button>
             </li>
           </ul>
         </div>

@@ -338,27 +338,26 @@ nav a:hover {
 /* section1 */
 
 .section1 {
-  align-items: flex-end;
+  width: 100%;
 }
-
 .section1 h1 {
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: normal;
+  padding-top: 40px;
 }
 
 .section1 h3 {
   font-family: "ralewayregular", Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: normal;
+  padding-top: 10px;
 }
 
 .section1__form {
   display: flex;
   flex-direction: row;
-  width: 420px;
-  height: 50px;
-  padding-top: 20px;
+  padding-top: 1rem;
 }
 
 .section1__map-marker {
@@ -368,34 +367,35 @@ nav a:hover {
   background-color: #f2f2f2;
   justify-content: center;
   align-items: center;
-  border-radius: 10px 0 0 10px;
+  border-radius: 15px 0 0 15px;
 }
 
-.section1__formBloc {
-}
-
-.section1__formGroup {
-  display: flex;
-  flex-direction: row;
-}
-
-.section1__formGroup input {
-  padding: 15px 0px;
+.section1__formResearch input {
   width: 100%;
+  height: 50px;
+  padding: 0 1.5rem;
   border: none;
   outline: none;
   background: none;
-  border-top: 2px solid #f2f2f2;
-  border-bottom: 2px solid #f2f2f2;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
 }
 
-input::placeholder {
-  color: black;
-  margin-left: 10px;
+.section1__formResearch input::placeholder {
+  font-family: "ralewaymedium", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: rgb(138, 138, 138);
 }
 
-/*.section1__button {
-  width: 134px;
+.section1__formSubmit {
+  width: 100%;
   height: 50px;
-  margin: 0;
-} */
+  border: none;
+  outline: none;
+  background-color: #0065fc;
+  border-radius: 0 15px 15px 0;
+  font-family: "ralewaybold", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+}
