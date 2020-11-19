@@ -570,7 +570,7 @@ nav a:hover {
   background-color: #f2f2f2;
   border-radius: 2rem;
   padding: 40px;
-  margin-top: 1.5rem;
+  margin-top: 3.5rem;
 }
 
 .section4__popularBloc h1 {
@@ -581,6 +581,8 @@ nav a:hover {
 }
 
 .section4__popularGroup {
+  width: 343px;
+  height: 144px;
   background-color: white;
   border: 5px solid white;
   border-radius: 10px;
@@ -592,12 +594,18 @@ nav a:hover {
   text-decoration: none;
 }
 
+.section4__popularThumbnail {
+  display: block;
+}
+
 .section4__popularThumbnail img {
   width: 127px;
   height: 134px;
   border: none;
   border-radius: 10px 0 0 10px;
   object-fit: cover;
+  float: left;
+  margin-right: 15px;
 }
 
 .section4__popularThumbnail h4 {
@@ -615,4 +623,8 @@ nav a:hover {
 
 .section4__popularRating {
   padding: 5px 10px;
+}
+
+.section4__popularRating .fa-star {
+  color: #0065fc;
 }
