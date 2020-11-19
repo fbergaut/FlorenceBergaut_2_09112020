@@ -649,16 +649,47 @@ nav a:hover {
 }
 
 .section5__activitiesBloc {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(10, 10px);
+  grid-gap: 40px;
+}
+
+.section5__activitiesBloc .vieuxPort {
+  grid-column: 1;
+  grid-row: 1 / span 10;
+}
+
+.section5__activitiesBloc .pomegues {
+  grid-column: 2;
+  grid-row: 1 / span 6;
+}
+
+.section5__activitiesBloc .frioul {
+  grid-column: 2;
+  grid-row: 7 / span 4;
+}
+
+.section5__activitiesBloc .calanques {
+  grid-column: 3;
+  grid-row: 1 / span 10;
+}
+
+.section5__activitiesBloc .notreDame {
+  grid-column: 4;
+  grid-row: 1 / span 4;
+}
+
+.section5__activitiesBloc .longchamps {
+  grid-column: 4;
+  grid-row: 5 / span 6;
 }
 
 .section5__activitiesGroup {
-  min-height: 200px;
+  display: flex;
+  align-items: flex-end;
   border-radius: 20px;
   box-shadow: 0 0 10px #f2f2f2;
-  margin: 1rem 0;
 }
 
 .section5__activitiesLink {
@@ -667,8 +698,8 @@ nav a:hover {
 }
 
 .section5__activitiesGroup img {
-  width: 330px;
-  height: 114px;
+  min-width: 330px;
+  height: 50px;
   border: none;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
@@ -679,28 +710,4 @@ nav a:hover {
   font-size: 1rem;
   font-weight: normal;
   margin: 1rem;
-}
-
-.section5__activitiesGroup:nth-of-type(1) {
-  height: 400px;
-}
-
-.section5__activitiesGroup:nth-of-type(1) img {
-  height: 300px;
-}
-
-.section5__activitiesGroup:nth-of-type(2) {
-  height: 230px;
-}
-
-.section5__activitiesGroup:nth-of-type(2) img {
-  height: 140px;
-}
-
-.section5__activitiesGroup:nth-of-type(3) {
-  height: 150px;
-}
-
-.section5__activitiesGroup:nth-of-type(4) {
-  height: 400px;
 }
