@@ -508,6 +508,12 @@ nav a:hover {
   background-color: white;
   border: 5px solid white;
   border-radius: 10px;
+  margin: 1rem;
+}
+
+.section3__resultLink {
+  color: black;
+  text-decoration: none;
 }
 
 .section3__resultsThumbnail img {
@@ -540,4 +546,13 @@ nav a:hover {
 
 .section3__resultsRating .fa-star .grey {
   color: #f2f2f2;
+}
+
+.section3__button {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: "ralewaybold", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
 }
