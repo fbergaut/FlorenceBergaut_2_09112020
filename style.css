@@ -333,7 +333,7 @@ nav a:hover {
   transition: all 0.2s ease-out;
 }
 
-/* section1 */
+/* section1 SearchBar */
 
 .section1 h1 {
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
@@ -398,7 +398,7 @@ nav a:hover {
   cursor: pointer;
 }
 
-/* section2 */
+/* section2 Filters */
 
 .section2 {
   display: flex;
@@ -452,7 +452,7 @@ nav a:hover {
   left: 0;
 }
 
-/* section3 */
+/* section3 Results */
 
 .section3__diponibilities {
   display: flex;
@@ -522,6 +522,7 @@ nav a:hover {
   height: 114px;
   border: none;
   border-radius: 10px 10px 0 0;
+  object-fit: cover;
 }
 
 .section3__resultsThumbnail h4 {
@@ -557,4 +558,61 @@ nav a:hover {
   font-size: 1rem;
   font-weight: normal;
   cursor: pointer;
+}
+
+/* section4 Popular */
+
+.section4__popularBloc {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+  background-color: #f2f2f2;
+  border-radius: 2rem;
+  padding: 40px;
+  margin-top: 1.5rem;
+}
+
+.section4__popularBloc h1 {
+  font-family: "ralewaybold", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-bottom: 1rem;
+}
+
+.section4__popularGroup {
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+.section4__popularLink {
+  color: black;
+  text-decoration: none;
+}
+
+.section4__popularThumbnail img {
+  width: 127px;
+  height: 134px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  object-fit: cover;
+}
+
+.section4__popularThumbnail h4 {
+  font-family: "ralewaybold", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 5px 10px;
+}
+
+.section4__popularThumbnail p {
+  font-family: "ralewayregular", Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  padding: 0 10px;
+}
+
+.section4__popularRating {
+  padding: 5px 10px;
 }
