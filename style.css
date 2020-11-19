@@ -231,18 +231,14 @@ body {
   font-size: 1rem;
 }
 
-img {
-  width: 5%;
-}
-
-/* Creation fo grid*/
+/* Grid*/
 
 .container {
   width: 1440px;
   margin: 50px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 30px 172px 150px repeat(3, 1fr);
+  grid-template-rows: 30px 172px 90px repeat(3, 1fr);
   grid-column-gap: 40px;
 }
 
@@ -454,4 +450,25 @@ nav a:hover {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+/* section3 */
+
+.section3__diponibilities {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.section3__diponibilities .fas {
+  color: #0065fc;
+  width: 1vw;
+  height: 1vh;
+  border: 1px solid #f2f2f2;
+  border-radius: 50%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
 }
