@@ -238,7 +238,7 @@ body {
   margin: 50px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 30px 172px 90px repeat(3, 1fr);
+  grid-template-rows: 30px 172px 90px 780px repeat(2, 1fr);
   grid-column-gap: 40px;
 }
 
@@ -509,6 +509,7 @@ nav a:hover {
   border: 5px solid white;
   border-radius: 10px;
   margin: 1rem 0;
+  box-shadow: 0 0 10px #c5c5c5;
 }
 
 .section3__resultLink {
@@ -591,6 +592,7 @@ nav a:hover {
   border: 5px solid white;
   border-radius: 10px;
   margin: 1rem 0;
+  box-shadow: 0 0 10px #c5c5c5;
 }
 
 .section4__popularLink {
@@ -631,4 +633,51 @@ nav a:hover {
 
 .section4__popularRating .fa-star {
   color: #0065fc;
+}
+
+/* section5 Activities */
+
+.section5 {
+}
+
+.section5 h1 {
+  font-family: "ralewaybold", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-bottom: 1rem;
+}
+
+.section5__activitiesBloc {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section5__activitiesGroup {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column wrap;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #f2f2f2;
+  margin: 1rem 0;
+}
+
+.section5__activitiesLink {
+  color: black;
+  text-decoration: none;
+}
+
+.section5__activitiesGroup img {
+  width: 330px;
+  height: 114px;
+  border: none;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+.section5__activitiesGroup h4 {
+  font-family: "ralewaybold", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 1rem;
 }
