@@ -478,3 +478,66 @@ nav a:hover {
   font-size: 1rem;
   font-weight: normal;
 }
+
+.section3__resultsBloc {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+  background-color: #f2f2f2;
+  border-radius: 2rem;
+  padding: 40px;
+}
+
+.section3__resultsBloc h1:nth-child(1) {
+  flex: 1 100%;
+}
+
+.section3__button:nth-child(8) {
+  flex: 1 100%;
+}
+
+.section3__resultsBloc h1 {
+  font-family: "ralewaybold", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-bottom: 1rem;
+}
+
+.section3__resultsGroup {
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.section3__resultsThumbnail img {
+  width: 236px;
+  height: 114px;
+  border: none;
+  border-radius: 10px 10px 0 0;
+}
+
+.section3__resultsThumbnail h4 {
+  font-family: "ralewaybold", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 5px 10px;
+}
+
+.section3__resultsThumbnail p {
+  font-family: "ralewayregular", Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  padding: 0 10px;
+}
+
+.section3__resultsRating {
+  padding: 5px 10px;
+}
+
+.section3__resultsRating .fa-star {
+  color: #0065fc;
+}
+
+.section3__resultsRating .fa-star .grey {
+  color: #f2f2f2;
+}
