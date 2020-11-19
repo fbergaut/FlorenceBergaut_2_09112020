@@ -638,6 +638,7 @@ nav a:hover {
 /* section5 Activities */
 
 .section5 {
+  height: 700px;
 }
 
 .section5 h1 {
@@ -654,9 +655,7 @@ nav a:hover {
 }
 
 .section5__activitiesGroup {
-  display: flex;
-  justify-content: space-between;
-  flex-flow: column wrap;
+  min-height: 200px;
   border-radius: 20px;
   box-shadow: 0 0 10px #f2f2f2;
   margin: 1rem 0;
@@ -680,4 +679,28 @@ nav a:hover {
   font-size: 1rem;
   font-weight: normal;
   margin: 1rem;
+}
+
+.section5__activitiesGroup:nth-of-type(1) {
+  height: 400px;
+}
+
+.section5__activitiesGroup:nth-of-type(1) img {
+  height: 300px;
+}
+
+.section5__activitiesGroup:nth-of-type(2) {
+  height: 230px;
+}
+
+.section5__activitiesGroup:nth-of-type(2) img {
+  height: 140px;
+}
+
+.section5__activitiesGroup:nth-of-type(3) {
+  height: 150px;
+}
+
+.section5__activitiesGroup:nth-of-type(4) {
+  height: 400px;
 }
