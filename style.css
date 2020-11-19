@@ -472,3 +472,9 @@ nav a:hover {
   align-items: center;
   margin-right: 1rem;
 }
+
+.section3__diponibilities h3 {
+  font-family: "ralewayregular", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+}
