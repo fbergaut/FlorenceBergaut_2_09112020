@@ -234,8 +234,8 @@ body {
 /* Grid*/
 
 .container {
-  width: 1440px;
-  margin: 50px;
+  max-width: 1440px;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 30px 172px 90px 780px repeat(2, 1fr);
