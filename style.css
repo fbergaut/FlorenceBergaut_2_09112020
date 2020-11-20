@@ -713,3 +713,34 @@ nav a:hover {
 }
 
 /* footer */
+
+.footer {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.footer__bloc {
+  display: flex;
+  padding-top: 50px;
+}
+
+.footer__group {
+  margin-right: 270px;
+}
+
+.footer__group h3 {
+  font-family: "ralewaybold", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  padding-bottom: 1rem;
+}
+
+.footer__group li {
+  font-family: "ralewayregular", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  padding-bottom: 1rem;
+}
+
+.footer__group li a {
+  color: black;
+}
