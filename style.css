@@ -281,7 +281,7 @@ nav a:hover {
 /* section3 Results */
 
 .section3 {
-  margin-right: 40px;
+  margin-right: 3rem;
 }
 
 .section3__diponibilities {
@@ -481,7 +481,7 @@ nav a:hover {
 .section5__activitiesBloc {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 14rem 2rem 2rem 2rem 14rem;
+  grid-template-rows: 12rem 2rem 2rem 2rem 12rem;
   grid-column-gap: 3rem;
   grid-row-gap: 1rem;
 }
@@ -522,7 +522,8 @@ nav a:hover {
 
 .section5__activitiesGroup {
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
   border-radius: 1rem;
   box-shadow: 0 0 10px #f2f2f2;
   overflow: hidden;
@@ -533,20 +534,43 @@ nav a:hover {
   text-decoration: none;
 }
 
-.display {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.vieuxPort img {
+  width: 245%;
+  transform: translate(-30%);
 }
 
-.display img {
+.pomegues img {
+  width: 100%;
+  transform: translateY(30%);
+}
+
+.frioul img {
+  width: 100%;
+  transform: translateY(20%);
+}
+
+.calanques img {
+  width: 250%;
+  transform: translate(-30%);
+}
+
+.notreDame img {
+  width: 100%;
+  transform: translateY(35%);
+}
+
+.longchamps img {
+  width: 120%;
+  transform: translate(-8%);
 }
 
 .section5__activitiesGroup h4 {
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: normal;
-  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+  position: relative;
 }
 
 /* footer */
