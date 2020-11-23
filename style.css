@@ -1,30 +1,4 @@
 @font-face {
-  font-family: "ralewayblack";
-  src: url("font/raleway-black-webfont.eot");
-  src: url("font/raleway-black-webfont.eot?#iefix") format("embedded-opentype"),
-    url("font/raleway-black-webfont.woff2") format("woff2"),
-    url("font/raleway-black-webfont.woff") format("woff"),
-    url("font/raleway-black-webfont.ttf") format("truetype"),
-    url("font/raleway-black-webfont.svg#ralewayblack") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "ralewayblack_italic";
-  src: url("font/raleway-blackitalic-webfont.eot");
-  src: url("font/raleway-blackitalic-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("font/raleway-blackitalic-webfont.woff2") format("woff2"),
-    url("font/raleway-blackitalic-webfont.woff") format("woff"),
-    url("font/raleway-blackitalic-webfont.ttf") format("truetype"),
-    url("font/raleway-blackitalic-webfont.svg#ralewayblack_italic")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "ralewaybold";
   src: url("font/raleway-bold-webfont.eot");
   src: url("font/raleway-bold-webfont.eot?#iefix") format("embedded-opentype"),
@@ -37,85 +11,6 @@
 }
 
 @font-face {
-  font-family: "ralewaybold_italic";
-  src: url("font/raleway-bolditalic-webfont.eot");
-  src: url("font/raleway-bolditalic-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("font/raleway-bolditalic-webfont.woff2") format("woff2"),
-    url("font/raleway-bolditalic-webfont.woff") format("woff"),
-    url("font/raleway-bolditalic-webfont.ttf") format("truetype"),
-    url("font/raleway-bolditalic-webfont.svg#ralewaybold_italic") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "ralewayextrabold";
-  src: url("font/raleway-extrabold-webfont.eot");
-  src: url("font/raleway-extrabold-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("font/raleway-extrabold-webfont.woff2") format("woff2"),
-    url("font/raleway-extrabold-webfont.woff") format("woff"),
-    url("font/raleway-extrabold-webfont.ttf") format("truetype"),
-    url("font/raleway-extrabold-webfont.svg#ralewayextrabold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "ralewayextrabold_italic";
-  src: url("font/raleway-extrabolditalic-webfont.eot");
-  src: url("font/raleway-extrabolditalic-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("font/raleway-extrabolditalic-webfont.woff2") format("woff2"),
-    url("font/raleway-extrabolditalic-webfont.woff") format("woff"),
-    url("font/raleway-extrabolditalic-webfont.ttf") format("truetype"),
-    url("font/raleway-extrabolditalic-webfont.svg#ralewayextrabold_italic")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "ralewayextralight";
-  src: url("font/raleway-extralight-webfont.eot");
-  src: url("font/raleway-extralight-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("font/raleway-extralight-webfont.woff2") format("woff2"),
-    url("font/raleway-extralight-webfont.woff") format("woff"),
-    url("font/raleway-extralight-webfont.ttf") format("truetype"),
-    url("font/raleway-extralight-webfont.svg#ralewayextralight") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "ralewayextralight_italic";
-  src: url("font/raleway-extralightitalic-webfont.eot");
-  src: url("font/raleway-extralightitalic-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("font/raleway-extralightitalic-webfont.woff2") format("woff2"),
-    url("font/raleway-extralightitalic-webfont.woff") format("woff"),
-    url("font/raleway-extralightitalic-webfont.ttf") format("truetype"),
-    url("font/raleway-extralightitalic-webfont.svg#ralewayextralight_italic")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "ralewayitalic";
-  src: url("font/raleway-italic-webfont.eot");
-  src: url("font/raleway-italic-webfont.eot?#iefix") format("embedded-opentype"),
-    url("font/raleway-italic-webfont.woff2") format("woff2"),
-    url("font/raleway-italic-webfont.woff") format("woff"),
-    url("font/raleway-italic-webfont.ttf") format("truetype"),
-    url("font/raleway-italic-webfont.svg#ralewayitalic") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "ralewaylight";
   src: url("font/raleway-light-webfont.eot");
   src: url("font/raleway-light-webfont.eot?#iefix") format("embedded-opentype"),
@@ -123,20 +18,6 @@
     url("font/raleway-light-webfont.woff") format("woff"),
     url("font/raleway-light-webfont.ttf") format("truetype"),
     url("font/raleway-light-webfont.svg#ralewaylight") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "ralewaylight_italic";
-  src: url("font/raleway-lightitalic-webfont.eot");
-  src: url("font/raleway-lightitalic-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("font/raleway-lightitalic-webfont.woff2") format("woff2"),
-    url("font/raleway-lightitalic-webfont.woff") format("woff"),
-    url("font/raleway-lightitalic-webfont.ttf") format("truetype"),
-    url("font/raleway-lightitalic-webfont.svg#ralewaylight_italic")
-      format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -166,58 +47,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: "ralewaysemibold";
-  src: url("raleway-semibold-webfont.eot");
-  src: url("font/raleway-semibold-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("font/raleway-semibold-webfont.woff2") format("woff2"),
-    url("font/raleway-semibold-webfont.woff") format("woff"),
-    url("font/raleway-semibold-webfont.ttf") format("truetype"),
-    url("font/raleway-semibold-webfont.svg#ralewaysemibold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "ralewaysemibold_italic";
-  src: url("font/raleway-semibolditalic-webfont.eot");
-  src: url("font/raleway-semibolditalic-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("font/raleway-semibolditalic-webfont.woff2") format("woff2"),
-    url("font/raleway-semibolditalic-webfont.woff") format("woff"),
-    url("font/raleway-semibolditalic-webfont.ttf") format("truetype"),
-    url("font/raleway-semibolditalic-webfont.svg#ralewaysemibold_italic")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "ralewaythin";
-  src: url("font/raleway-thin-webfont.eot");
-  src: url("font/raleway-thin-webfont.eot?#iefix") format("embedded-opentype"),
-    url("font/raleway-thin-webfont.woff2") format("woff2"),
-    url("font/raleway-thin-webfont.woff") format("woff"),
-    url("font/raleway-thin-webfont.ttf") format("truetype"),
-    url("font/raleway-thin-webfont.svg#ralewaythin") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "ralewaythin_italic";
-  src: url("font/raleway-thinitalic-webfont.eot");
-  src: url("font/raleway-thinitalic-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("font/raleway-thinitalic-webfont.woff2") format("woff2"),
-    url("font/raleway-thinitalic-webfont.woff") format("woff"),
-    url("font/raleway-thinitalic-webfont.ttf") format("truetype"),
-    url("font/raleway-thinitalic-webfont.svg#ralewaythin_italic") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
 *,
 ::before,
 ::after {
@@ -234,49 +63,46 @@ body {
 /* Grid*/
 
 .container {
-  max-width: 1440px;
-  margin: auto;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 30px 172px 90px 780px repeat(2, 1fr);
-  grid-column-gap: 40px;
-
-.header {
-  grid-column: 1 / span 8;
+  grid-template-columns: minmax(0px, 1fr) repeat(12, minmax(0, 120px)) minmax(
+      0px,
+      1fr
+    );
+  grid-template-rows: repeat(auto-fill, 6, 1fr);
 }
 
-.nav {
-  grid-column: 9 / span 4;
+.header {
+  grid-column: 2 / -2;
 }
 
 .section1 {
-  grid-column: 1 / -1;
+  grid-column: 2 / -2;
   grid-row: 2;
 }
 
 .section2 {
-  grid-column: 1 / -1;
+  grid-column: 2 / -2;
   grid-row: 3;
 }
 
 .section3 {
-  grid-column: 1 / span 8;
+  grid-column: 2 / span 8;
   grid-row: 4;
 }
 
 .section4 {
-  grid-column: 9 / span 4;
+  grid-column: 10 / span 4;
   grid-row: 4;
 }
 
 .section5 {
-  grid-column: 1 / -1;
+  grid-column: 2 / -2;
   grid-row: 5;
 }
 
 .footer {
   grid-column: 1 / -1;
-  grid-row: 6 / span 12;
+  grid-row: 6;
 }
 
 /**********************************************/
@@ -295,41 +121,64 @@ li a {
   text-decoration: none;
 }
 
+/*********************Hover on cards*************************/
+
+.fade {
+  opacity: 1;
+}
+
+.fade:hover {
+  opacity: 0.5;
+  transition: all 0.5s ease-out;
+}
+
+/*********************Rating stars*************************/
+
+.fa-star {
+  color: #0065fc;
+}
+
+.fa-star.grey {
+  color: #f2f2f2;
+}
+
 /**********************************************/
 
 /* header */
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 header img {
-  width: 10%;
-  justify-content: flex-start;
-  align-items: flex-end;
+  width: 25%;
 }
 
 /* nav */
 
-nav ul {
+nav {
   display: flex;
-  justify-content: space-between;
-  padding: 0 15px;
 }
 
-nav ul li a {
-  align-items: flex-end;
+nav a {
+  padding: 3rem;
   font-size: 1rem;
   color: black;
-  position: relative;
+  text-decoration: none;
+  border-top: 0.2rem solid transparent;
+  transition: all 1s ease-out;
 }
 
-nav a.signup {
-  font-family: "ralewaybold", Arial, Helvetica, sans-serif;
+header .signup {
   color: #0065fc;
+  font-family: "ralewaybold", Arial, Helvetica, sans-serif;
 }
 
 nav a:hover {
   color: #0065fc;
   border-top: 0.2rem solid #0065fc;
-  padding-top: 2rem;
-  transition: all 0.2s ease-out;
 }
 
 /* section1 SearchBar */
@@ -338,7 +187,6 @@ nav a:hover {
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
-  padding-top: 40px;
 }
 
 .section1 h3 {
@@ -402,7 +250,7 @@ nav a:hover {
 .section2 {
   display: flex;
   flex-direction: row;
-  padding-top: 1rem;
+  padding: 2rem 0;
 }
 
 .section2 h3 {
@@ -452,6 +300,10 @@ nav a:hover {
 }
 
 /* section3 Results */
+
+.section3 {
+  margin-right: 3rem;
+}
 
 .section3__diponibilities {
   display: flex;
@@ -541,14 +393,6 @@ nav a:hover {
   padding: 5px 10px;
 }
 
-.section3__resultsRating .fa-star {
-  color: #0065fc;
-}
-
-.section3__resultsRating .fa-star .grey {
-  color: #f2f2f2;
-}
-
 .section3__button {
   border: none;
   outline: none;
@@ -630,14 +474,10 @@ nav a:hover {
   padding: 40px 10px;
 }
 
-.section4__popularRating .fa-star {
-  color: #0065fc;
-}
-
 /* section5 Activities */
 
 .section5 {
-  height: 700px;
+  padding: 2rem 0;
 }
 
 .section5 h1 {
@@ -650,43 +490,49 @@ nav a:hover {
 .section5__activitiesBloc {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(10, 10px);
-  grid-gap: 40px;
+  grid-template-rows: 12rem 2rem 2rem 2rem 12rem;
+  grid-column-gap: 3rem;
+  grid-row-gap: 1rem;
+}
+
+.section5__activitiesGroup {
+  margin: 1rem 0;
 }
 
 .section5__activitiesBloc .vieuxPort {
   grid-column: 1;
-  grid-row: 1 / span 10;
+  grid-row: 1 / span 5;
 }
 
 .section5__activitiesBloc .pomegues {
   grid-column: 2;
-  grid-row: 1 / span 6;
+  grid-row: 1 / span 4;
 }
 
 .section5__activitiesBloc .frioul {
   grid-column: 2;
-  grid-row: 7 / span 4;
+  grid-row: 5 / span 1;
 }
 
 .section5__activitiesBloc .calanques {
   grid-column: 3;
-  grid-row: 1 / span 10;
+  grid-row: 1 / span 5;
 }
 
 .section5__activitiesBloc .notreDame {
   grid-column: 4;
-  grid-row: 1 / span 4;
+  grid-row: 1 / span 1;
 }
 
 .section5__activitiesBloc .longchamps {
   grid-column: 4;
-  grid-row: 5 / span 6;
+  grid-row: 2 / span 4;
 }
 
 .section5__activitiesGroup {
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
   border-radius: 1rem;
   box-shadow: 0 0 10px #f2f2f2;
   overflow: hidden;
@@ -697,36 +543,56 @@ nav a:hover {
   text-decoration: none;
 }
 
-.section5__activitiesImage {
-  position: relative;
+.vieuxPort img {
+  width: 245%;
+  transform: translate(-30%);
 }
 
-.section5__activitiesImage img {
-  position: absolute;
+.pomegues img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  transform: translateY(30%);
+}
+
+.frioul img {
+  width: 100%;
+  transform: translateY(20%);
+}
+
+.calanques img {
+  width: 250%;
+  transform: translate(-30%);
+}
+
+.notreDame img {
+  width: 100%;
+  transform: translateY(35%);
+}
+
+.longchamps img {
+  width: 120%;
+  transform: translate(-8%);
 }
 
 .section5__activitiesGroup h4 {
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: normal;
-  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+  position: relative;
 }
 
 /* footer */
 
 .footer {
-  width: 100%;
   background-color: #f2f2f2;
 }
+
 .footer__bloc {
   display: flex;
-  max-width: 100%;
   width: 1440px;
-  margin: auto;
-  padding-top: 2rem;
+  margin: 0 auto;
+  padding: 3rem 0;
 }
 
 .footer__group {
@@ -749,4 +615,9 @@ nav a:hover {
 
 .footer__group li a {
   color: black;
+}
+
+.footer__group li a:hover {
+  color: #0065fc;
+  transition: all 0.3s ease-out;
 }
