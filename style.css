@@ -635,7 +635,7 @@ nav a:hover {
 /* section5 Activities */
 
 .section5 {
-  height: 700px;
+  padding: 2rem 0;
 }
 
 .section5 h1 {
@@ -650,6 +650,10 @@ nav a:hover {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(10, 10px);
   grid-gap: 40px;
+}
+
+.section5__activitiesGroup {
+  margin: 1rem 0;
 }
 
 .section5__activitiesBloc .vieuxPort {
