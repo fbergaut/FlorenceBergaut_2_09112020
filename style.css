@@ -121,6 +121,27 @@ li a {
   text-decoration: none;
 }
 
+/*********************Hover on cards*************************/
+
+.fade {
+  opacity: 1;
+}
+
+.fade:hover {
+  opacity: 0.5;
+  transition: all 0.5s ease-out;
+}
+
+/*********************Rating stars*************************/
+
+.fa-star {
+  color: #0065fc;
+}
+
+.fa-star.grey {
+  color: #f2f2f2;
+}
+
 /**********************************************/
 
 /* header */
@@ -372,14 +393,6 @@ nav a:hover {
   padding: 5px 10px;
 }
 
-.section3__resultsRating .fa-star {
-  color: #0065fc;
-}
-
-.section3__resultsRating .fa-star .grey {
-  color: #f2f2f2;
-}
-
 .section3__button {
   border: none;
   outline: none;
@@ -459,10 +472,6 @@ nav a:hover {
 
 .section4__popularRating {
   padding: 40px 10px;
-}
-
-.section4__popularRating .fa-star {
-  color: #0065fc;
 }
 
 /* section5 Activities */
@@ -578,6 +587,7 @@ nav a:hover {
 .footer {
   background-color: #f2f2f2;
 }
+
 .footer__bloc {
   display: flex;
   width: 1440px;
