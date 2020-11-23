@@ -243,11 +243,7 @@ body {
 }
 
 .header {
-  grid-column: 1 / span 8;
-}
-
-.nav {
-  grid-column: 9 / span 4;
+  grid-column: 1 / span 12;
 }
 
 .section1 {
@@ -300,37 +296,38 @@ li a {
 
 /* header */
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 header img {
-  width: 10%;
-  justify-content: flex-start;
-  align-items: flex-end;
+  width: 25%;
 }
 
 /* nav */
 
-nav ul {
+nav {
   display: flex;
-  justify-content: space-between;
-  padding: 0 15px;
 }
 
-nav ul li a {
-  align-items: flex-end;
+nav a {
+  padding: 3rem;
   font-size: 1rem;
   color: black;
-  position: relative;
+  text-decoration: none;
+  border-top: 0.2rem solid transparent;
 }
 
-nav a.signup {
-  font-family: "ralewaybold", Arial, Helvetica, sans-serif;
+header .signup {
   color: #0065fc;
+  font-family: "ralewaybold", Arial, Helvetica, sans-serif;
 }
 
 nav a:hover {
   color: #0065fc;
   border-top: 0.2rem solid #0065fc;
-  padding-top: 2rem;
-  transition: all 0.2s ease-out;
 }
 
 /* section1 SearchBar */
@@ -339,7 +336,6 @@ nav a:hover {
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
-  padding-top: 40px;
 }
 
 .section1 h3 {
@@ -403,7 +399,7 @@ nav a:hover {
 .section2 {
   display: flex;
   flex-direction: row;
-  padding-top: 1rem;
+  padding: 2rem 0;
 }
 
 .section2 h3 {
