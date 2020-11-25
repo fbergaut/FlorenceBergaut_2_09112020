@@ -55,12 +55,16 @@
   padding: 0;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   font-family: "ralewayregular", Arial, Helvetica, sans-serif;
   font-size: 1rem;
 }
 
-/* Grid*/
+/********************Grid**************************/
 
 .container {
   display: grid;
@@ -105,9 +109,11 @@ body {
   grid-row: 6;
 }
 
-/**********************************************/
+/********************Links + Links footer**************************/
 
-/* links nav + footer */
+a {
+  text-decoration: none;
+}
 
 ul {
   padding: 0;
@@ -142,27 +148,39 @@ li a {
   color: #f2f2f2;
 }
 
-/**********************************************/
+/**********************************************************/
 
 /* header */
 
-header {
+.header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
+  background-color: rgb(108, 0, 151);
 }
 
-header img {
-  width: 25%;
+.item {
+  /* flex: 0 1 auto; */
 }
 
-/* nav */
+.headerLogo {
+  background-color: rgb(28, 179, 85);
+  flex-grow: 2;
+}
 
-nav {
+.headerLogo img {
+  width: 10%;
+  height: auto;
+}
+
+/****** nav ******/
+
+.headerNav {
   display: flex;
+  background-color: rgb(255, 153, 0);
 }
 
-nav a {
+.headerNav a {
   padding: 3rem;
   font-size: 1rem;
   color: black;
@@ -171,14 +189,17 @@ nav a {
   transition: all 1s ease-out;
 }
 
-header .signup {
-  color: #0065fc;
-  font-family: "ralewaybold", Arial, Helvetica, sans-serif;
-}
-
-nav a:hover {
+.headerNav a:hover {
   color: #0065fc;
   border-top: 0.2rem solid #0065fc;
+}
+
+.headerSignup {
+  padding: 3rem;
+  color: #0065fc;
+  font-family: "ralewaybold", Arial, Helvetica, sans-serif;
+  background-color: rgb(179, 28, 116);
+  border-top: 0.2rem solid transparent;
 }
 
 /* section1 SearchBar */
@@ -436,7 +457,7 @@ nav a:hover {
 }
 
 .section4__popularGroup {
-  width: 370px;
+  width: 100%;
   height: 144px;
   background-color: white;
   border: 5px solid white;
@@ -455,8 +476,8 @@ nav a:hover {
 }
 
 .section4__popularThumbnail img {
-  width: 127px;
-  height: 134px;
+  width: 8.75rem;
+  height: 8.375rem;
   border: none;
   border-radius: 10px 0 0 10px;
   object-fit: cover;
@@ -597,7 +618,7 @@ nav a:hover {
 
 .footer__bloc {
   display: flex;
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 3rem 0;
 }
@@ -627,4 +648,90 @@ nav a:hover {
 .footer__group li a:hover {
   color: #0065fc;
   transition: all 0.3s ease-out;
+}
+
+/********************Media Queries**************************/
+
+@media screen and (max-width: 90rem) {
+  .container {
+    padding: 0 2rem;
+  }
+
+  .headerLogo img {
+    width: 20%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 62rem) {
+  .container {
+  }
+
+  .headerLogo img {
+    width: 30%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 43rem) {
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* header */
+
+  .header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .headerNav:nth-of-type(1) {
+    order: 1;
+    flex: 1;
+  }
+
+  .headerNav:nth-of-type(2) {
+    order: 3;
+    flex: 1 100%;
+  }
+
+  .headerNav:nth-of-type(3) {
+    order: 2;
+    flex: 1;
+  }
+
+  .headerLogo {
+    padding: 1rem;
+    flex-grow: 0;
+    flex-basis: 30%;
+  }
+
+  .headerLogo img {
+    width: 100%;
+    height: auto;
+  }
+
+  /****** nav ******/
+
+  .headerNav {
+    justify-content: space-around;
+  }
+
+  .headerNav a {
+    width: 100%;
+    padding: 1rem;
+    border-top: none;
+    border-bottom: 0.2rem solid transparent;
+    text-align: center;
+  }
+
+  .headerNav a:hover {
+    border-top: none;
+    border-bottom: 0.2rem solid #0065fc;
+  }
+
+  .headerSignup {
+    padding: 1rem;
+  }
 }
