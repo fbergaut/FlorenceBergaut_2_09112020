@@ -266,7 +266,7 @@ li a {
 
 .section2 {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   padding: 2rem 0;
 }
 
@@ -274,17 +274,16 @@ li a {
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
-  padding-top: 0.5em;
 }
 
 .section2 ul {
   display: flex;
-  justify-content: space-between;
   padding: 0 2%;
+  flex-wrap: wrap;
 }
 
 .section2 ul li {
-  padding: 0 0.8em;
+  padding: 0.8em;
 }
 
 .section2__button {
@@ -774,6 +773,13 @@ li a {
   .section4,
   .section5 {
     padding: 0 1rem;
+  }
+  .section1 h1 {
+    padding: 1rem 0 0 0;
+  }
+
+  .section1__formBLoc {
+    padding: 0 0 1rem 0;
   }
 }
 
