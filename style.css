@@ -737,6 +737,31 @@ footer {
     max-width: 100px;
     min-width: 100px;
   }
+
+  .section2 h3 {
+    min-width: unset;
+  }
+
+  .section3__resultsGroup {
+    width: 48%;
+  }
+
+  .section4 {
+    padding-bottom: 4%;
+  }
+
+  .section4__popularBloc {
+    flex-flow: column wrap;
+  }
+
+  .section4__popularGroup {
+    width: 100%;
+    max-width: 100%;
+    min-width: 200px;
+  }
+
+  .section4__popularLink img {
+  }
 }
 
 /*******************************max-width: 43rem ********************************/
@@ -749,7 +774,7 @@ footer {
 
   /* header */
 
-  .header {
+  header {
     flex-wrap: wrap;
     justify-content: space-between;
   }
@@ -802,9 +827,8 @@ footer {
   .section1,
   .section2,
   .section3,
-  .section4,
   .section5 {
-    padding: 0 1rem;
+    margin: 0 1rem;
   }
   .section1 h1 {
     padding: 2rem 0 0 0;
@@ -812,6 +836,14 @@ footer {
 
   .section1__formBLoc {
     padding: 0 0 1rem 0;
+  }
+
+  .section3__resultsGroup {
+    width: 100%;
+  }
+
+  .section4 {
+    padding-bottom: 5%;
   }
 }
 
