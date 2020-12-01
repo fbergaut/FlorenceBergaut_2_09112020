@@ -581,34 +581,9 @@ header {
   text-decoration: none;
 }
 
-.vieuxPort img {
-  width: 245%;
-  transform: translate(-30%);
-}
-
-.pomegues img {
+.section5__activitiesLink img {
   width: 100%;
-  transform: translateY(30%);
-}
-
-.frioul img {
-  width: 100%;
-  transform: translateY(20%);
-}
-
-.calanques img {
-  width: 250%;
-  transform: translate(-30%);
-}
-
-.notreDame img {
-  width: 100%;
-  transform: translateY(35%);
-}
-
-.longchamps img {
-  width: 120%;
-  transform: translate(-8%);
+  height: auto;
 }
 
 .section5__activitiesGroup h4 {
@@ -770,10 +745,6 @@ footer {
   }
 
   .section5__activitiesGroup {
-  }
-
-  .section5__activitiesGroup img {
-    width: 50%;
   }
 
   .footer {
