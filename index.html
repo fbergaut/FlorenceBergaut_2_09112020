@@ -331,8 +331,20 @@
 
           <div class="section5__activitiesGroup pomegues fade">
             <a href="#" class="section5__activitiesLink">
-              ><img src="img/fort-de-pomegues.jpg" alt="Fort de Pomègues" />
-
+              <picture>
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="fort-de-pomegues-ultra.jpg 3200w"
+                />
+                <img
+                  srcset="
+                    fort-de-pomegues-desktop.jpg 1600w,
+                    fort-de-pomegues-mobile.jpg   800w
+                  "
+                  src="img/fort-de-pomegues-desktop.jpg"
+                  alt="Fort de Pomègues"
+                />
+              </picture>
               <h4>Fort de Pomègues</h4>
             </a>
           </div>

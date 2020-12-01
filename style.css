@@ -74,6 +74,7 @@ body {
     );
   grid-template-rows: repeat(auto-fill, 5, 1fr);
   width: 100%;
+  margin: 0 auto;
 }
 
 header {
@@ -629,6 +630,7 @@ footer {
   display: flex;
   margin: 0 auto;
   padding: 3rem 0;
+  width: 1440px;
 }
 
 .footer__group {
@@ -662,7 +664,7 @@ footer {
 
 @media screen and (max-width: 90rem) {
   .container {
-    padding: 0 1rem;
+    padding: 0 2rem;
   }
 
   /* header */
@@ -679,9 +681,7 @@ footer {
   }
 
   .section2 h3 {
-    flex: 1;
-    min-width: 1440px;
-    padding-bottom: 1rem;
+    padding-right: 1rem;
   }
 
   .section2__diponibilities h3 {
@@ -726,6 +726,70 @@ footer {
   .section4__popularThumbnail img {
     width: 100%;
   }
+
+  .section5 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section5__activitiesBloc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 2.5rem;
+  }
+
+  .section5__activitiesBloc .vieuxPort {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .section5__activitiesBloc .pomegues {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .section5__activitiesBloc .frioul {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .section5__activitiesBloc .calanques {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .section5__activitiesBloc .notreDame {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .section5__activitiesBloc .longchamps {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .section5__activitiesGroup {
+  }
+
+  .section5__activitiesGroup img {
+    width: 50%;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .footer__bloc {
+    margin: unset;
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    min-width: 300px;
+  }
+
+  .footer__group {
+    margin-right: 10%;
+  }
 }
 
 /*******************************max-width: 62rem ********************************/
@@ -760,7 +824,52 @@ footer {
     min-width: 200px;
   }
 
-  .section4__popularLink img {
+  .section5__activitiesBloc {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 2.5rem;
+  }
+
+  .section5__activitiesBloc .vieuxPort {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .section5__activitiesBloc .pomegues {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .section5__activitiesBloc .frioul {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .section5__activitiesBloc .calanques {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .section5__activitiesBloc .notreDame {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .section5__activitiesBloc .longchamps {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .footer__bloc {
+    flex-direction: column;
+    max-width: 400px;
+    min-width: 100px;
+  }
+
+  .footer__group {
+    margin-right: unset;
+    padding-bottom: 3%;
   }
 }
 
@@ -830,6 +939,7 @@ footer {
   .section5 {
     margin: 0 1rem;
   }
+
   .section1 h1 {
     padding: 2rem 0 0 0;
   }
@@ -844,6 +954,11 @@ footer {
 
   .section4 {
     padding-bottom: 5%;
+  }
+
+  .section5__activitiesBloc {
+    display: flex;
+    flex-flow: wrap column;
   }
 }
 
@@ -919,5 +1034,10 @@ footer {
     border-top: none;
     background-color: unset;
     transition: all 0.3s ease-out;
+  }
+
+  .footer__bloc {
+    max-width: 250px;
+    min-width: 100px;
   }
 }
