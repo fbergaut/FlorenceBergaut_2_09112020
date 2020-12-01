@@ -391,7 +391,7 @@ header {
 
 .section3__resultsThumbnail img {
   width: 100%;
-  height: 7rem;
+  height: auto;
   border-radius: 1rem 1rem 0 0;
   object-fit: cover;
 }
