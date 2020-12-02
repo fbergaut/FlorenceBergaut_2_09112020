@@ -204,7 +204,6 @@ header {
 
 .section1__form {
   display: flex;
-  flex-direction: row;
   padding-top: 1rem;
 }
 
@@ -218,7 +217,7 @@ header {
   border-radius: 15px 0 0 15px;
 }
 
-.section1__formResearch {
+.section1__formBLoc {
   display: flex;
 }
 
@@ -249,6 +248,10 @@ header {
   font-size: 1rem;
   color: white;
   cursor: pointer;
+}
+
+.section1__formSubmit .hiddenIcon {
+  display: none;
 }
 
 .section1__formSubmit:hover {
@@ -918,6 +921,27 @@ footer {
     padding: 0 0 1rem 0;
   }
 
+  .section1__formSubmit .hiddenIcon {
+    display: block;
+  }
+
+  .section1__formSubmit {
+    width: 3.125rem;
+    border-radius: 0.938rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hiddenText {
+    position: absolute;
+    left: -10000em;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
   .section3__resultsGroup {
     width: 100%;
   }
@@ -975,6 +999,10 @@ footer {
 
   /****** nav ******/
 
+  html {
+    font-size: 15px;
+  }
+
   .headerNav {
     justify-content: space-around;
     border-top: none;
@@ -1006,6 +1034,23 @@ footer {
     transition: all 0.3s ease-out;
   }
 
+  .section1__form {
+    padding: 2rem 0;
+  }
+
+  .section1__map-marker {
+    min-width: 3.25rem;
+    max-width: 3.25rem;
+  }
+
+  .section2 {
+    padding: unset;
+  }
+
+  .section2__diponibilities {
+    padding: 2rem 0;
+  }
+
   .section3 {
     margin: 0;
   }
@@ -1015,13 +1060,27 @@ footer {
     padding: 1.5rem;
   }
 
+  .section3__resultsGroup {
+    box-shadow: 0 0 10px #f2f2f2;
+    margin-bottom: 1.5rem;
+  }
+
   .section4__popularBloc {
     border-radius: unset;
     padding: 1.5rem;
   }
 
+  .section4__popularGroup {
+    margin-bottom: 1.5rem;
+  }
+
   .section5 {
     margin: 0 1.5rem;
+  }
+
+  .section5__activitiesGroup {
+    margin: unset;
+    margin-bottom: 0.5rem;
   }
 
   .footer__bloc {
