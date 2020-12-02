@@ -907,7 +907,7 @@ footer {
   .section2,
   .section3,
   .section5 {
-    margin: 0 1rem;
+    margin: 0 1.5rem;
   }
 
   .section1 h1 {
@@ -1004,6 +1004,24 @@ footer {
     border-top: none;
     background-color: unset;
     transition: all 0.3s ease-out;
+  }
+
+  .section3 {
+    margin: 0;
+  }
+
+  .section3__resultsBloc {
+    background-color: unset;
+    padding: 1.5rem;
+  }
+
+  .section4__popularBloc {
+    border-radius: unset;
+    padding: 1.5rem;
+  }
+
+  .section5 {
+    margin: 0 1.5rem;
   }
 
   .footer__bloc {
