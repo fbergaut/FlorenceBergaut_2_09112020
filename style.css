@@ -181,7 +181,13 @@ header {
   padding: 3rem;
   color: #0065fc;
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
-  border-top: 0.2rem solid transparent;
+}
+
+.headerSignup:hover {
+  color: black;
+  border-top: none;
+  background-color: unset;
+  transition: all 0.3s ease-out;
 }
 
 /* section1 SearchBar */
@@ -389,21 +395,21 @@ header {
   color: black;
 }
 
-.section3__resultsThumbnail img {
+.section3__resultsCard img {
   width: 100%;
   height: auto;
   border-radius: 1rem 1rem 0 0;
   object-fit: cover;
 }
 
-.section3__resultsThumbnail h4 {
+.section3__resultsCard h4 {
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   padding: 5px 10px;
 }
 
-.section3__resultsThumbnail p {
+.section3__resultsCard p {
   font-family: "ralewayregular", Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
   padding: 0 10px;
@@ -477,7 +483,7 @@ header {
   text-decoration: none;
 }
 
-.section4__popularThumbnail {
+.section4__popularCard {
   display: flex;
   flex-flow: column wrap;
   padding: 2%;
@@ -494,14 +500,14 @@ header {
   margin-right: 0.5rem;
 }
 
-.section4__popularThumbnail h4 {
+.section4__popularCard h4 {
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   padding-bottom: 5%;
 }
 
-.section4__popularThumbnail p {
+.section4__popularCard p {
   font-family: "ralewayregular", Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
 }
@@ -696,7 +702,7 @@ footer {
     min-width: 200px;
   }
 
-  .section4__popularThumbnail img {
+  .section4__popularCard img {
     width: 100%;
   }
 
@@ -790,7 +796,7 @@ footer {
     min-width: 200px;
   }
 
-  .section4__popularThumbnail h4 {
+  .section4__popularCard h4 {
     padding-bottom: 0.5rem;
   }
 
@@ -1022,13 +1028,6 @@ footer {
     padding: 2rem;
     border-top: none;
     background-color: unset;
-  }
-
-  .headerSignup:hover {
-    color: black;
-    border-top: none;
-    background-color: unset;
-    transition: all 0.3s ease-out;
   }
 
   .section1__form {
