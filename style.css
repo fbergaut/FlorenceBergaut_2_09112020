@@ -73,8 +73,6 @@ body {
       1fr
     );
   grid-template-rows: repeat(auto-fill, 5, 1fr);
-  width: 100%;
-  margin: 0 auto;
 }
 
 header {
@@ -192,7 +190,6 @@ header {
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
-  word-break: break-word;
 }
 
 .section1 h3 {
@@ -454,7 +451,7 @@ header {
   padding-bottom: 2.5rem;
 }
 
-.section4__popularBloc h1 {
+.section4__popularBloc h2 {
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
@@ -687,7 +684,6 @@ footer {
 
   .section4__titre {
     flex: 1 100%;
-    align-items: ;
   }
 
   .section4__popularBloc {
@@ -744,9 +740,6 @@ footer {
   .section5__activitiesBloc .longchamps {
     grid-column: 3;
     grid-row: 2;
-  }
-
-  .section5__activitiesGroup {
   }
 
   .footer {
