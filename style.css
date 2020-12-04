@@ -755,8 +755,7 @@ footer {
   .footer__bloc {
     margin: unset;
     padding: 3rem 2rem;
-    max-width: 1000px;
-    min-width: 300px;
+    width: 1000px;
   }
 
   .footer__group {
@@ -839,8 +838,7 @@ footer {
 
   .footer__bloc {
     flex-direction: column;
-    max-width: 400px;
-    min-width: 100px;
+    width: 400px;
   }
 
   .footer__group {
@@ -1080,7 +1078,6 @@ footer {
   }
 
   .footer__bloc {
-    max-width: 250px;
-    min-width: 100px;
+    width: 250px;
   }
 }
